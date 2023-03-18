@@ -29,4 +29,12 @@
         Can also react to mouse clicks, page reloads, and other actions.
 
 
+                            Document.Write()
+        if you want to writer something to show on the page permanent
+        document.write()
+
+                                innerHTML
+        To change the contents of the DOM, use innerHTML combined with the element you want to change.
+
+
 This is a Review For JavaScript for University of Michigan
