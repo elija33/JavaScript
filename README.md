@@ -36,5 +36,13 @@
                                 innerHTML
         To change the contents of the DOM, use innerHTML combined with the element you want to change.
 
+                                Functions
+        Functions are bits of codes that can be reuse
+                    function name(){
+                        some code gos here.
+                    }
+
+            Declaring and calling a function
+
 
 This is a Review For JavaScript for University of Michigan
