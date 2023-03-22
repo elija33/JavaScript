@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Week 3 Array
+        </title>
+    </head>
+    <body onload="companycars()">
+        <script>
+            // Listing all the elment in the arrray
+            var companys = ["BWM", "App", "JMPMorgan", "Google"];
+            function companycars(){
+                document.getElementById("companys").innerHTML = companys;
+            }
+
+            // Adding an element to the end of the array
+            function myCompany(){
+                var company = prompt("What is your favorite fruit?");
+                companys[companys.length] = company;
+                document.getElementById("companys").innerHTML = companys;
+            }
+        </script>
+       <h1>Add all the list of job here.</h1> 
+        <button onclick="myCompany()">Adding the list of job here</button>
+        <p id="companys"></p>
+    </body>
+</html>
